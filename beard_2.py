@@ -54,15 +54,5 @@ plt.title('Test frame')
 plt.show()
 
 
-
-
-
-
-
-
-
-
-
-
 # close camera
 cap.release()

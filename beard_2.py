@@ -4,7 +4,7 @@ import numpy as np
 from matplotlib import pyplot as plt
 
 
-beard_cascade = cv.CascadeClassifier('cascade(3).xml')
+beard_cascade = cv.CascadeClassifier('cascade3.xml')
 #beard_cascade = cv.CascadeClassifier('cascade(4).xml')
 face_cascade = cv.CascadeClassifier('haarcascade_frontalface_default.xml')
 

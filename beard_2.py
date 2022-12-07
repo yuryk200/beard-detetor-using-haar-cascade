@@ -9,7 +9,7 @@ beard_cascade = cv.CascadeClassifier('cascade(3).xml')
 face_cascade = cv.CascadeClassifier('haarcascade_frontalface_default.xml')
 
 #setting up camera to capture
-cap = cv.VideoCapture(1)
+cap = cv.VideoCapture(0)
 
 while 1:
     ret, img = cap.read()
@@ -66,5 +66,3 @@ plt.show()
 
 # close camera
 cap.release()
-
-
